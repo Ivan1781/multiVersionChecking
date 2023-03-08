@@ -17,7 +17,7 @@ public class Main {
         System.out.println("Current Process Id: = " + currentProcess.pid());
     }
 
-    public static void nameOfVariable9_5(){
-        int _ = 23;
-    }
+//    public static void nameOfVariable9_5(){
+//        int _ = 23;
+//    }
 }
