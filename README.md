@@ -6,5 +6,5 @@
 4) The template describes the general structure of the test case and uses the following steps: 
 - A project is opened in IntelliJ IDEA of a particular version. 
 - Then an appropriate package, such as level 8, is opened to test the identification of the language level of a particular version.  
-- The sequence of checks can be any: first you specify the configuration of the language in the child pom, do not specify in the parent. Then the java languae level is specified in a parent pom, but not in child pom. The version of the language is specified by 1 less than the one checked in each case. Then check the default state by removing the language version from child and parent poms. 
+- The sequence of checks can be any: first you specify the configuration of the language in the child pom, do not specify in the parent. Then the java languae level is specified in a parent pom, but not in child pom. The version of the language is specified by 1 less than the one checked in each case (in this case it would be 8-1=7). Then check the default state by removing the language version from child and parent poms. 
 - In each case, check if IntelliJ IDEA correctly prompts you to switch the language version  by showing a tooltip window or sets it correctly in the settings.  
