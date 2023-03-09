@@ -1,9 +1,9 @@
 # multiVersionChecking
 
-1) The repository is split into several packages, each containing samples of code for a particular version of Java. As an example, the repository contains code samples for Java releases 7, 8, 9, 10, 12
+1) The repository is divided into several packages, each containing samples of code for a particular version of Java. For example, the repository contains code samples for Java releases 7, 8, 9, 10, 12.
 2) The test plan is presented in the form of a table and a template. Please open https://miro.com/app/board/uXjVMfnrZL0=/ 
 Each column of the table corresponds to the Java version and contains new features of that version. Each feature has a sequence number in the format n_x, where n is Java version number, and x is the sequence number of the feature in the table.    
-3) To check Java language level definition in IntelliJ IDEA, parent-child module structure is used. Each folder contains samples of code for a particular version of the  language. The following configuration types are checked: configuration inheritance from one module to another, without configuration inheritance and default language level definition - in case if no language version is specified in the modules. 
+3) To check Java language level definition in IntelliJ IDEA, parent-child module structure is used. Each folder contains samples of code for a particular version of the  language. The following configuration types are checked: inheritance configuration from one module to another; configuration without inheritance; default language level detection - in case if no language version is specified in the modules. 
 4) The template describes the general structure of the test case and uses the following steps: 
 - A project is opened in IntelliJ IDEA of a particular version. 
 - Then an appropriate package of project (for example level 8) is opened to test the identification of the language level of a particular version.  
